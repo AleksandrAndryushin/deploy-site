@@ -3,9 +3,11 @@
 Tasks:
 1. Очистка проекта от ненужных файлов
 2. Узнать для чего нужна папка public
-3. 
+3. что такое --> JSX
 
 Answers:
-1. Nope
+1. +
 2. https://create-react-app.dev/docs/using-the-public-folder/
-
+3. 
+  Это JSXML или Java-Script-Extensible-Markup-Language
+  Джава скрипт с расширяемой разметкой
