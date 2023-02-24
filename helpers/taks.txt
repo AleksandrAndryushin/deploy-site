@@ -1,6 +1,11 @@
 Здесь будет выставлены цели на это проект ->
 
+Tasks:
 1. Очистка проекта от ненужных файлов
+2. Узнать для чего нужна папка public
+3. 
 
-
+Answers:
+1. Nope
+2. https://create-react-app.dev/docs/using-the-public-folder/
 
