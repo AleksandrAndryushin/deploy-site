@@ -1,12 +1,11 @@
 import React from "react";
-import SocialLink from "../socialLink/SocialLink";
-import Main from "../../../assets/json/Main.json";
+import SocialLink from "../../UI/socialLink/SocialLink";
+import MainData from "../../../assets/json/Main.json";
 
 const MainSection = () => {
-  SocialLink();
-  const woman = Main["woman"];
-  const man = Main["man"];
-  const history = Main["history"];
+  const woman = MainData["woman"];
+  const man = MainData["man"];
+  const history = MainData["history"];
   return (
     <section id="#Main">
       <figure>

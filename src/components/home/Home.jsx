@@ -2,7 +2,9 @@ import React from "react";
 import Footer from "../UI/footer/Footer";
 import Header from "../UI/header/Header";
 import Menu from "../UI/menu/Menu";
-import MainSection from "../UI/mainSection/MainSection";
+import MainSection from "../HomeSections/mainSection/MainSection";
+import BlogSection from "../HomeSections/blogSection/BlogSection";
+import TimeSection from "../HomeSections/timeSection/TimeSection";
 
 const Home = () => {
   return (
@@ -10,26 +12,10 @@ const Home = () => {
       <main id="Home">
         <Menu />
         <Header />
-        {/*Home section -->*/}
         <div>
           <MainSection />
-          {/*Home section <--*/}
-          {/*Blog section -->*/}
-          <section id="#Blog">
-            <button className="left-controller">
-              <img src="" alt="" />
-            </button>
-            <nav className="carousel"></nav>
-            <button className="right-controller">
-              <img src="" alt="" />
-            </button>
-          </section>
-          {/*Blog section <--*/}
-          {/*Time section -->*/}
-          <section id="#Time">
-            <h1>Расписание</h1>
-            <ul></ul>
-          </section>
+          <BlogSection />
+          <TimeSection />
           {/*Time section <--*/}
           {/*Place section -->*/}
           <section id="#Place">
