@@ -12,8 +12,8 @@ const MainSection = () => {
         <img src={man["path"]} alt={man["alt"]}></img>
         <figcaption>{man["name"]}</figcaption>
         <div className="social-tab">
-          {man["social"].map((item) => {
-            return SocialLink(item["link"], item["path"], item["alt"]);
+          {man["social"].map((item, index) => {
+            return SocialLink(item["link"], item["path"], item["alt"], index);
           })}
         </div>
       </figure>
@@ -22,8 +22,8 @@ const MainSection = () => {
         <img src={woman["path"]} alt={woman["alt"]}></img>
         <figcaption>{woman["name"]}</figcaption>
         <div className="social-tab">
-          {woman["social"].map((item) => {
-            return SocialLink(item["link"], item["path"], item["alt"]);
+          {woman["social"].map((item, index) => {
+            return SocialLink(item["link"], item["path"], item["alt"], index);
           })}
         </div>
       </figure>

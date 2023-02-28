@@ -2,11 +2,25 @@
   {
     "path": "",
     "alt": "",
-    "description": "",
-    "social": [{
-      "path":"",
-      "link":"",
-      "alt":""
-    }]
+    "fullName": "Привет",
+    "socials": [
+      {
+        "path": "",
+        "alt": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "path": "",
+    "alt": "",
+    "fullName": "Привет2",
+    "socials": [
+      {
+        "path": "",
+        "alt": "",
+        "link": ""
+      }
+    ]
   }
 ]
