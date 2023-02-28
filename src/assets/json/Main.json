@@ -1,8 +1,8 @@
 {
   "man": {
     "name": "Александр",
-    "path": "",
-    "alt": "",
+    "path": "Images/image_error_full.png",
+    "alt": "Что то на татарском",
     "social": [
       {
         "link": "",
@@ -13,7 +13,7 @@
   },
   "woman": {
     "name": "Оксана",
-    "path": "",
+    "path": "Images/image_error_full.png",
     "alt": "",
     "social": [
       {

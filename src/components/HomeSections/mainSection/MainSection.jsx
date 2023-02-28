@@ -21,7 +21,11 @@ const MainSection = () => {
       <figure>
         <img src={woman["path"]} alt={woman["alt"]}></img>
         <figcaption>{woman["name"]}</figcaption>
-        <div className="social-tab"></div>
+        <div className="social-tab">
+          {woman["social"].map((item) => {
+            return SocialLink(item["link"], item["path"], item["alt"]);
+          })}
+        </div>
       </figure>
       <h2>{history}</h2>
     </section>

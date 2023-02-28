@@ -1,6 +1,6 @@
 import React from "react";
 import BlogsData from "../../../assets/json/Blogs.json";
-import Img_leftArrow from "../../../assets/ImageUI/leftArrow.svg";
+import Img_leftArrow from "../../../assets/Images/leftArrow.svg";
 
 const BlogSection = () => {
   const data = BlogsData;
@@ -10,9 +10,9 @@ const BlogSection = () => {
         <img src={Img_leftArrow} alt="Свайп влево" />
       </button>
       <nav className="carousel">
-        {data.map((item) => {
+        {data.map((item, index) => {
           return (
-            <figure>
+            <figure key={index}>
               <img src={item["path"]} alt={item["alt"]} />
               <figcaption>{item["description"]}</figcaption>
             </figure>

@@ -7,8 +7,8 @@ const TimeSection = () => {
     <section id="#Time">
       <h1>Расписание</h1>
       <ul>
-        {data.map((item) => {
-          return <li>{item}</li>;
+        {data.map((item, index) => {
+          return <li key={index}>{item}</li>;
         })}
       </ul>
     </section>
